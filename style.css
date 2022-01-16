@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.div-1{
+    background-image: url("./projeto.png");
+    height: 96vh;
+    background-size: cover;
+}
+
+h1{
+    font-size: 58px;
+    color: #ffffff;
+    position: relative;
+    top: 400px;
+    margin-left: 35px;
+}
+
+
+.div-tp{
+    padding-top: 25px;
+    padding-left: 35px;
+    
+    
+}
+
+.h2-1{
+    font-size: 24px;
+    color: #ffffff;
+    display: inline;
+}
+
+.li-1{
+    font-size: 14px;
+    color: #ffffff;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none ;
+}
+
+form{
+    background-color: #ffffff;
+    border-radius: 10;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    bottom: 70px;
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s linear;
+
+}
+
+.mostrar-formu{
+    visibility: visible;
+    opacity: 0.9;
+}
+    
+input{
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+ textarea{
+     display: block;
+     width: 250px;
+     height: 80px;
+     border-radius: 5px;
+     margin-bottom: 20px;
+     border-bottom: #e6e6e6;
+     padding-left: 10px;
+ }
+
+ label{
+     font-size: 14px;
+     color: #252b42;
+ }
+
+ .h3-1{
+     font-size: 35px;
+     color: #252b42;
+     margin-bottom: 35px;
+     text-align: center;
+
+ }
+
+button{
+    height: 40px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #40bb15;
+    color: #ffffff;
+    border: none;
+}
+
+#h2-2{
+    font-size: 40px;
+    color: #252b42;
+    margin-top: 48px ;
+    margin-bottom: 48px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.div-3{
+    width: 300px;
+    border-radius: 1px;
+    background-color: #ffffff;
+    border: 1px solid #a9d6ff;
+}
+ 
+.h3-2{
+    background: #219653;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 9px 9px 0 0;
+    
+}
+
+ul{
+    padding: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#div-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.div-4{
+    background-color: blue;
+    }
+
+#h2-3{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding-top:50px;
+}
+
+p{
+    text-align: center;
+  font-size: 18px;
+  color: #ffffff;  
+   padding: 20x 50px 50px 50px;
+}
