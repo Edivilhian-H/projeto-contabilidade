@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <!-- ===============LINKS FONTS================ -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,100;0,700;1,400 & display=swap"
         rel="stylesheet">
+
+    <!-- ===============LINK CSS================ -->
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
     <title>Dev Contábiol</title>
 </head>
 
@@ -28,7 +35,7 @@
             <h3 class="h3-1">Entre em contato</h3>
             <label>
                 Name
-                <input type= "text" name="nome" placeholder="Digite seu Nome" required />
+                <input type="text" name="nome" placeholder="Digite seu Nome" required />
             </label>
 
             <label>
@@ -92,38 +99,30 @@
 
     <div class="div-4">
         <h2 id="h2-3">Sobre Nós</h2>
-        <p>
-            Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais
-            que já
-            atuam ou desejam abrir seus negócios e ingressar no Brasil.
 
-            Assessoramos investidores que queiram prospectar seus negócios no Brasil e investidores (“brasileiros”)
-            interessados em fazer negócios em outros países.
-            Oferecemos “backoffice” nas áreas Financeira, Recursos Humanos, Tributária e Contabilidade, inclusive a
-            abertura, legalização e regularização de empresas e negócios.
+        <div class="text-about-us">
+            <p>
+                Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais
+                que já
+                atuam ou desejam abrir seus negócios e ingressar no Brasil.
 
-            Com pesquisas de mercado, montamos toda estrutura organizacional, ambiente operacional e logística de
-            suas
-            atividades, com profissionais qualificados, competentes e continuamente treinados.
+                Assessoramos investidores que queiram prospectar seus negócios no Brasil e investidores (“brasileiros”)
+                interessados em fazer negócios em outros países.
+                Oferecemos “backoffice” nas áreas Financeira, Recursos Humanos, Tributária e Contabilidade, inclusive a
+                abertura, legalização e regularização de empresas e negócios.
 
-            Somos especialistas em empresas tributadas pelo LUCRO REAL e Contabilidade em IFRS. Assim, o
-            Planejamento das
-            Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive
-            sugerindo incorporação ou desmembramento de atividades.
-        </p>
+                Com pesquisas de mercado, montamos toda estrutura organizacional, ambiente operacional e logística de
+                suas
+                atividades, com profissionais qualificados, competentes e continuamente treinados.
+
+                Somos especialistas em empresas tributadas pelo LUCRO REAL e Contabilidade em IFRS. Assim, o
+                Planejamento das
+                Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive
+                sugerindo incorporação ou desmembramento de atividades.
+            </p>
+        </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
-<script>
-    let formu = document.getElementById("formu")
-
-    console.log(formu)
-
-    function fformu(){
-    formu.className = "mostrar-formu"
-    }
-
-
-
-</script>
-
 </html>

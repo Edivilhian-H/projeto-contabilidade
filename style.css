@@ -6,7 +6,7 @@
 }
 
 .div-1{
-    background-image: url("./projeto.png");
+    background-image: url("./img/img.png");
     height: 96vh;
     background-size: cover;
 }
@@ -28,13 +28,14 @@ h1{
 }
 
 .h2-1{
-    font-size: 24px;
+    font-size: 26px;
     color: #ffffff;
     display: inline;
+    font-weight: bold;
 }
 
 .li-1{
-    font-size: 14px;
+    font-size: 17px;
     color: #ffffff;
     display: inline;
     margin-left: 20px;
@@ -104,6 +105,12 @@ button{
     color: #ffffff;
     border: none;
 }
+button:hover{
+    opacity:  .7;
+}
+button:active{
+    opacity:  .5;
+}
 
 #h2-2{
     font-size: 40px;
@@ -147,7 +154,8 @@ li{
 }
 
 .div-4{
-    background-color: blue;
+    background-color: rgba(11, 11, 230, 0.87);
+    height: 440px;
     }
 
 #h2-3{
@@ -155,6 +163,19 @@ li{
     font-size: 40px;
     text-align: center;
     padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.text-about-us{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    font-weight: 400;
+}
+
+.text-about-us p {
+    font-size: 25px;
 }
 
 p{
